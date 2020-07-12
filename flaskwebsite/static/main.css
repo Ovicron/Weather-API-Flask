@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+body{
+    background-color: grey;
+    color: black;
+}
+
+
+#SearchField::placeholder{
+    color: grey;
+    font-size: 20px;
+}
+
+.btn-search{
+    margin-top: 1.5em;
+    margin-left: 12em;
+    width: 25%;
+}
+
+.weather-text{
+    font-size: 36px;
+}
+
+.temp-text{
+    font-size: 32px;
+    margin-left: 1.5em;
+    font-weight: 600;
+}
+
+#temp-icon{
+    margin-bottom: 2em;
+}
+
+.desc{
+    font-size: 28px;
+    color: #1e5c96;
+}
