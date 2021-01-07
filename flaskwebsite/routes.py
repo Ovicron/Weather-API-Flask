@@ -31,4 +31,4 @@ def home():
         }
 
         weather_data.append(weather)
-    return render_template('home.html', title='Home',  weather_data=weather_data)
+    return render_template('home.html', title='Weather',  weather_data=weather_data)
